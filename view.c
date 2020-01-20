@@ -3681,7 +3681,7 @@ void send_event(struct session *ses, struct links_event *ev)
 			print_screen_status(ses);
 			goto x;
 		}
-		if ((upcase(ev->x) == 'R' && ev->y & KBD_CTRL) || ev->x == KBD_RELOAD) {
+		if ((upcase(ev->x) == 'R') || ev->x == KBD_RELOAD) {
 			reload(ses, -1);
 			goto x;
 		}
