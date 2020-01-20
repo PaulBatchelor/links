@@ -1,0 +1,362 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:634: checking for a BSD compatible install
+configure:687: checking whether build environment is sane
+configure:744: checking whether make sets ${MAKE}
+configure:790: checking for working aclocal-1.4
+configure:803: checking for working autoconf
+configure:816: checking for working automake-1.4
+configure:829: checking for working autoheader
+configure:842: checking for working makeinfo
+configure:874: checking for gcc
+configure:987: checking whether the C compiler (gcc  ) works
+configure:1003: gcc -o conftest    conftest.c  1>&5
+configure:1000:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ if { (eval echo configure:1003: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+ ^~~~
+configure:1029: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1034: checking whether we are using GNU C
+configure:1062: checking whether gcc accepts -g
+configure:1108: checking how to run the C preprocessor
+configure:1188: checking for ANSI C header files
+configure:1293: checking whether gcc needs -traditional
+configure:1341: checking for EMX
+configure:1373: checking for OpenWatcom
+configure:1404: checking for DJGPP
+configure:1440: checking for ARM64 ILP32
+configure:1471: checking for volatile
+configure:1508: checking for restrict
+configure:1550: checking for __restrict
+configure:1592: checking for long long
+configure:1624: checking for pointer comparison bug
+configure:1670: checking for maxint conversion bug
+configure:1717: checking for stdlib.h
+configure:1756: checking for dirent.h that defines DIR
+configure:1794: checking for opendir in -ldir
+configure:1877: checking for sys/wait.h that is POSIX.1 compatible
+configure:1922: checking for alloca.h
+configure:1922: checking for arpa/inet.h
+configure:1922: checking for bsd/string.h
+configure:1922: checking for cygwin/process.h
+configure:1922: checking for cygwin/version.h
+configure:1922: checking for fcntl.h
+configure:1922: checking for grp.h
+configure:1922: checking for ieee.h
+configure:1922: checking for interix/interix.h
+configure:1922: checking for inttypes.h
+configure:1922: checking for io.h
+configure:1922: checking for langinfo.h
+configure:1922: checking for limits.h
+configure:1922: checking for linux/falloc.h
+configure:1922: checking for locale.h
+configure:1922: checking for malloc.h
+configure:1922: checking for math.h
+configure:1922: checking for net/socket.h
+configure:1922: checking for netinet/in_system.h
+configure:1922: checking for netinet/in_systm.h
+configure:1922: checking for netinet/ip.h
+configure:1922: checking for poll.h
+configure:1922: checking for process.h
+configure:1922: checking for pwd.h
+configure:1922: checking for search.h
+configure:1922: checking for setjmp.h
+configure:1922: checking for sgtty.h
+configure:1922: checking for stdarg.h
+configure:1922: checking for string.h
+configure:1922: checking for strings.h
+configure:1922: checking for sys/cygwin.h
+configure:1922: checking for sys/file.h
+configure:1922: checking for sys/fmutex.h
+configure:1922: checking for sys/ioctl.h
+configure:1922: checking for sys/resource.h
+configure:1922: checking for sys/select.h
+configure:1922: checking for sys/time.h
+configure:1922: checking for sys/un.h
+configure:1922: checking for sys/utsname.h
+configure:1922: checking for termios.h
+configure:1922: checking for time.h
+configure:1922: checking for umalloc.h
+configure:1922: checking for unistd.h
+configure:1922: checking for unixlib.h
+configure:1922: checking for utime.h
+configure:1922: checking for uwin.h
+configure:1922: checking for values.h
+configure:1964: checking for working const
+configure:2039: checking for inline
+configure:2079: checking for size_t
+configure:2112: checking for pid_t
+configure:2145: checking for socklen_t
+configure:2184: checking for errno
+configure:2223: checking whether time.h and sys/time.h may both be included
+configure:2258: checking whether struct tm is in sys/time.h or time.h
+configure:2305: checking size of unsigned short
+configure:2345: checking size of unsigned
+configure:2385: checking size of unsigned long
+configure:2426: checking size of unsigned long long
+configure:2470: checking for big endian
+configure:2507: checking for little endian
+configure:2558: checking if rename can replace existing files
+configure:2610: checking return type of signal handlers
+configure:2651: checking for strftime
+configure:2747: checking for vprintf
+configure:2854: checking for bcmp
+configure:2854: checking for bcopy
+configure:2854: checking for bzero
+configure:2854: checking for calloc
+configure:2854: checking for cfmakeraw
+configure:2854: checking for chmod
+configure:2854: checking for cygwin_conv_path
+configure:2854: checking for cygwin_conv_to_full_win32_path
+configure:2854: checking for dirfd
+configure:2854: checking for fallocate
+configure:2854: checking for freelocale
+configure:2854: checking for getcwd
+configure:2854: checking for getgrgid
+configure:2854: checking for gethostname
+configure:2854: checking for getpagesize
+configure:2854: checking for getpid
+configure:2854: checking for getpwuid
+configure:2854: checking for getrlimit
+configure:2854: checking for gettimeofday
+configure:2854: checking for kqueue
+configure:2854: checking for malloc_trim
+configure:2854: checking for mallopt
+configure:2854: checking for mktime
+configure:2854: checking for newlocale
+configure:2854: checking for nl_langinfo
+configure:2854: checking for poll
+configure:2854: checking for popen
+configure:2854: checking for posix_fallocate
+configure:2854: checking for raise
+configure:2854: checking for select
+configure:2854: checking for setlocale
+configure:2854: checking for setpgid
+configure:2854: checking for setrlimit
+configure:2854: checking for setsid
+configure:2854: checking for sigaction
+configure:2854: checking for sigblock
+configure:2854: checking for sigdelset
+configure:2854: checking for sigprocmask
+configure:2854: checking for sigsetmask
+configure:2854: checking for snprintf
+configure:2854: checking for strdup
+configure:2854: checking for strerror_l
+configure:2854: checking for strptime
+configure:2854: checking for strtod
+configure:2854: checking for strtoimax
+configure:2854: checking for strtol
+configure:2854: checking for strtoll
+configure:2854: checking for strtoq
+configure:2854: checking for strtoul
+configure:2854: checking for sysconf
+configure:2854: checking for tdelete
+configure:2854: checking for tempnam
+configure:2854: checking for tfind
+configure:2854: checking for tsearch
+configure:2854: checking for uname
+configure:2854: checking for unixpath2win
+configure:2854: checking for utime
+configure:2854: checking for utimes
+configure:2854: checking for uwin_path
+configure:2854: checking for winpath2unix
+configure:2854: checking for _heapmin
+configure:2854: checking for _msize
+configure:2854: checking for _ucreate
+configure:2854: checking for _udefault
+configure:2854: checking for _udestroy
+configure:2854: checking for _uopen
+configure:2854: checking for __strtoll
+configure:2911: checking for strlen
+configure:2964: checking for strlen
+configure:3000: checking for strnlen
+configure:3053: checking for strnlen
+configure:3089: checking for strcpy
+configure:3142: checking for strcpy
+configure:3178: checking for strncpy
+configure:3231: checking for strncpy
+configure:3267: checking for strchr
+configure:3320: checking for strchr
+configure:3356: checking for strrchr
+configure:3409: checking for strrchr
+configure:3445: checking for strcmp
+configure:3498: checking for strcmp
+configure:3534: checking for strncmp
+configure:3587: checking for strncmp
+configure:3623: checking for strcspn
+configure:3676: checking for strcspn
+configure:3712: checking for strspn
+configure:3765: checking for strspn
+configure:3801: checking for strstr
+configure:3854: checking for strstr
+configure:3890: checking for memchr
+configure:3943: checking for memchr
+configure:3979: checking for memrchr
+configure:4032: checking for memrchr
+configure:4068: checking for memcmp
+configure:4121: checking for memcmp
+configure:4157: checking for memcpy
+configure:4210: checking for memcpy
+configure:4246: checking for memmove
+configure:4299: checking for memmove
+configure:4335: checking for memset
+configure:4388: checking for memset
+configure:4424: checking for memmem
+configure:4477: checking for memmem
+configure:4514: checking for strerror
+configure:4567: checking for strerror
+configure:4601: checking for sigfillset
+configure:4635: checking for sigsetjmp/siglongjmp
+configure:4669: checking for gcc assembler
+configure:4734: checking for __builtin_add_overflow
+configure:4768: checking for __builtin_clz
+configure:4807: checking for strmode in -lbsd
+configure:4856: checking for requested debug level
+configure:4877: checking if you want to enable javascript
+configure:5252: checking if you want to use graphics
+configure:5262: checking if you want to enable UTF-8 terminal
+configure:5286: checking for clock_gettime
+configure:5395: checking for socket
+configure:5643: checking for setsockopt
+configure:5742: checking for gethostbyname
+configure:5948: checking for getaddrinfo
+configure:5948: checking for freeaddrinfo
+configure:5948: checking for gai_strerror
+configure:6012: checking for inet_ntop
+configure:6012: checking for inet_pton
+configure:6012: checking for herror
+configure:6073: checking for ipv6
+configure:6116: checking for sockaddr_in6.sin6_scope_id
+configure:6167: checking for event.h
+configure:6167: checking for ev-event.h
+configure:6370: checking for pow in -lm
+configure:6462: checking for pow
+configure:6495: checking for powf
+configure:6544: checking for gpm.h
+configure:6581: checking for Gpm_Open in -lgpm
+configure:6630: checking for Gpm_GetLibVersion
+configure:6733: checking for OS/2 threads
+configure:6773: checking for atheos/threads.h
+configure:6812: checking for spawn_thread
+configure:6812: checking for resume_thread
+configure:6868: checking for MouOpen
+configure:6868: checking for _read_kbd
+configure:6921: checking for XFree for OS/2
+configure:7116: checking for pkg-config
+configure:7160: checking for openssl
+configure:7167: checking OPENSSL_CFLAGS
+configure:7172: checking OPENSSL_LIBS
+configure:7204: checking for OpenSSL
+configure:7216: gcc -o conftest -g -O2    conftest.c -lssl -lcrypto  -lm  1>&5
+configure:7415: checking for openssl/x509v3.h
+configure:7461: checking for ASN1_STRING_get0_data
+configure:7461: checking for ASN1_STRING_to_UTF8
+configure:7461: checking for OPENSSL_cleanup
+configure:7461: checking for OPENSSL_init_ssl
+configure:7461: checking for RAND_add
+configure:7461: checking for RAND_egd
+configure:7461: checking for RAND_file_name
+configure:7461: checking for RAND_load_file
+configure:7461: checking for RAND_write_file
+configure:7461: checking for SSL_SESSION_is_resumable
+configure:7461: checking for SSL_get0_verified_chain
+configure:7461: checking for SSL_get1_session
+configure:7461: checking for SSL_load_error_strings
+configure:7461: checking for SSL_set_security_level
+configure:7461: checking for X509_check_host
+configure:7461: checking for X509_check_ip
+configure:7514: checking for CRYPTO_set_mem_functions without file/line
+configure:7549: checking for CRYPTO_set_mem_functions with file/line
+configure:7631: checking for zlib.h
+configure:7668: checking for inflate in -lz
+configure:7728: checking for brotli/decode.h
+configure:7765: checking for BrotliDecoderDecompressStream in -lbrotlidec
+configure:7825: checking for zstd.h
+configure:7862: checking for ZSTD_decompressStream in -lzstd
+configure:7977: checking for bzlib.h
+configure:8014: checking for BZ2_bzDecompress in -lbz2
+configure:8074: checking for lzma.h
+configure:8111: checking for lzma_auto_decoder in -llzma
+configure:8171: checking for lzlib.h
+configure:8208: checking for LZ_decompress_open in -llz
+configure:8282: checking for OpenMP
+configure:8450: checking for svgalib
+configure:8548: checking for linux/fb.h
+configure:8548: checking for linux/kd.h
+configure:8548: checking for linux/vt.h
+configure:8548: checking for sys/mman.h
+configure:8597: checking for directfb-config
+configure:8632: checking for DirectFB >= 0.9.17
+configure:8747: checking for DirectFBInit
+configure:8796: checking for X
+configure:9321: checking for X11/Xlib.h
+configure:9321: checking for X11/X.h
+configure:9321: checking for X11/Xutil.h
+configure:9321: checking for X11/Xatom.h
+configure:9321: checking for X11/Xlocale.h
+configure:9321: checking for X11/keysymdef.h
+configure:9361: checking for XOpenDisplay
+configure:9361: checking for XOpenIM
+configure:9361: checking for XCloseIM
+configure:9361: checking for XCreateIC
+configure:9361: checking for XDestroyIC
+configure:9361: checking for XwcLookupString
+configure:9361: checking for Xutf8LookupString
+configure:9361: checking for XSupportsLocale
+configure:9361: checking for XmbTextListToTextProperty
+configure:9415: checking for Xsetlocale
+configure:9511: checking for windowsx.h
+configure:9548: checking for ReleaseDC
+configure:9579: checking for ReleaseDC in -luser32
+configure:9609: checking for GdiFlush
+configure:9640: checking for GdiFlush in -lgdi32
+configure:9688: checking for gui/view.h
+configure:9688: checking for gui/window.h
+configure:9688: checking for gui/desktop.h
+configure:9688: checking for gui/bitmap.h
+configure:9688: checking for util/locker.h
+configure:9688: checking for util/application.h
+configure:10025: checking for interface/View.h
+configure:10025: checking for interface/Window.h
+configure:10025: checking for interface/Screen.h
+configure:10025: checking for interface/Bitmap.h
+configure:10025: checking for support/Locker.h
+configure:10025: checking for app/Application.h
+configure:10481: checking for freetype2 fontconfig
+configure:10488: checking LIBFREETYPE_CFLAGS
+configure:10493: checking LIBFREETYPE_LIBS
+configure:10532: checking for fontconfig/fontconfig.h
+configure:10532: checking for ft2build.h
+configure:10571: checking for FcInit
+configure:10571: checking for FT_Init_FreeType
+configure:10727: checking for FcGetVersion
+configure:10727: checking for FT_Library_Version
+configure:10902: checking for libpng >= 1.0.0
+configure:10909: checking LIBPNG_CFLAGS
+configure:10914: checking LIBPNG_LIBS
+configure:11049: checking for png.h
+configure:11049: checking for libpng/png.h
+configure:11088: checking for png_create_info_struct
+configure:11196: checking for png_set_rgb_to_gray
+configure:11196: checking for png_get_libpng_ver
+configure:11196: checking for png_get_image_width
+configure:11196: checking for png_get_image_height
+configure:11196: checking for png_get_gAMA
+configure:11196: checking for png_get_color_type
+configure:11196: checking for png_get_bit_depth
+configure:11196: checking for png_set_strip_alpha
+configure:11196: checking for png_get_valid
+configure:11196: checking for png_get_sRGB
+configure:11271: checking for jpeglib.h
+configure:11308: checking for jpeg_destroy_decompress in -ljpeg
+configure:11425: checking for tiffio.h
+configure:11462: checking for TIFFClientOpen in -ltiff
+configure:11588: checking for librsvg-2.0 >= 2.0.0 cairo
+configure:11639: checking for cairo.h
+configure:11639: checking for librsvg/rsvg.h
+configure:11639: checking for librsvg/rsvg-cairo.h
+configure:11639: checking for librsvg/librsvg-features.h
+configure:11678: checking for rsvg_handle_render_cairo
+configure:11732: checking for rsvg_handle_render_cairo in -lrsvg-2
+configure:11833: checking for pthread_sigmask
+configure:11888: checking for pthread_sigmask in -lpthread
